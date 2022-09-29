@@ -1,0 +1,28 @@
+#line {
+  background: solid;
+  background-color: #cccccc;
+  height: 1px;
+  max-width: 2000px;
+  min-width: 150px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+a {
+  font-family: Metropolis;
+}
+
+#aboutSectionTop {
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+}
+
+#aboutSection {
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 15px;
+  padding-bottom: 25px;
+}

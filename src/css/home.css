@@ -3,33 +3,33 @@
   background-color: #fff;
 }
 
-#contact-home {
-  background: solid;
-  background-color: #fff;
-  min-height: 700px;
+#nav {
+  border-bottom: solid;
+  border-top: solid;
+  border-top-color: #115499;
+  border-width: 5px;
+  border-bottom-color: #00a920;
 }
 
 #neumorphic-blue {
   margin: 20px;
-  width: 20rem;
+
   border-radius: 15px;
   border-width: 2px;
   background: #fff;
-  box-shadow: 10px 10px 30px #d9d9d9,
-    -10px -10px 30px #ffffff;
+  box-shadow:  10px 10px 30px #d9d9d9,
+               -10px -10px 30px #ffffff;
 }
-
 #headerImage {
   border-radius: 15px;
   border-width: 2px;
   background: #fff;
-  box-shadow: 10px 10px 30px #d9d9d9,
-    -10px -10px 30px #ffffff;
+  box-shadow:  10px 10px 30px #d9d9d9,
+               -10px -10px 30px #ffffff;
 }
-
 #cardImage {
   height: 180px;
-  width: 100%;
+  width:100%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -39,61 +39,37 @@
     border-radius: 15px;
     border-width: 2px;
     background: #fff;
-    box-shadow: 10px 10px 30px #d9d9d9,
-      -10px -10px 30px #ffffff;
+    box-shadow:  10px 10px 30px #d9d9d9,
+                 -10px -10px 30px #ffffff;
   }
-
   #cardImage {
     height: 250px;
-    width: 100%;
+    width:100%;
   }
-
   #headerImage {
     width: 90%;
   }
 }
 
 #resource {
+  min-width: 20rem;
+  max-width:40rem;
   margin: 20px;
   border-radius: 15px;
   background: #ffffff;
-  box-shadow: 10px 10px 30px #d9d9d9,
-    -10px -10px 30px #ffffff;
+  box-shadow:  10px 10px 30px #d9d9d9,
+               -10px -10px 30px #ffffff;
 }
+
 
 #gradientBackground {
-  border-top: solid;
-  border-bottom: solid;
-  border-width: 2px;
-  border-color: black;
-  background: linear-gradient(300deg, #8dffb6, #68ff9e, #4dff8c, #8c9cff, #677cff, #3d58ff);
+  background: linear-gradient(300deg,darkviolet,blue,#00a920,#00a920,#115499,#115499);
   background-size: 360% 360%;
   animation: gradient-animation 36s ease infinite;
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-#gradientBackground2 {
-  border-top: solid;
-  border-bottom: solid;
-  border-width: 2px;
-  border-color: black;
-  background: linear-gradient(300deg, #354aff, #596bff, #8995ff, #9effca, #67ffab, #34ff8f);
-  background-size: 360% 360%;
-  animation: gradient-animation 36s ease infinite;
-}
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -106,14 +82,31 @@
   }
 }
 
-#gradientBackground3 {
-  border-top: solid;
-  border-bottom: solid;
-  border-width: 2px;
-  border-color: black;
-  background: linear-gradient(300deg, #354aff, #596bff, #8995ff, #9effca, #67ffab, #34ff8f);
-  background-size: 360% 360%;
-  animation: gradient-animation 36s ease infinite;
+#gradientBackground2{
+  background: linear-gradient(300deg,#146648,#445f57,#003a52,#273469,#1e2749);
+  background-size: 300% 300%;
+  animation: gradient-animation 30s ease infinite;
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#gradientBackground3{
+  background: linear-gradient(300deg,deepskyblue,darkviolet,blue);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
 }
 
 @keyframes gradient-animation {
@@ -136,7 +129,7 @@
 
 #dropshadow {
   border-radius: 360px;
-  box-shadow: 6px 6px 14px 1px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 6px 6px 14px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 14px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 14px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 6px 14px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 14px 1px rgba(0,0,0,0.75);
 }

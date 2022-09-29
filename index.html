@@ -16,7 +16,7 @@
   <meta property="og:title" content="Amanda Watson: Welcome to my website">
   <meta property="og:site_name" content="Amanda Watson">
   <meta property="og:url" content="https://www.amandawatson.com">
-  <meta property="og:description" content="This website is for Amanda Watson. She is excellent.">
+  <meta property="og:description" content="The best way to create beautiful websites quickly and without needing to code. Try Code Casually for free today.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="./src/images/amanda-watson-thumbnail.png">
   <!-- This is for your styles-->
@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="./src/css/text.css">
   <link rel="stylesheet" href="./src/css/nav.css">
   <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/header.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
@@ -31,7 +32,7 @@
 <body>
 
   <!-- Start Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-4" id="gradientBackground3">
+  <nav class="navbar navbar-expand-lg navbar-dark py-4" id="nav">
     <div class="container-fluid">
       <a class="" href="./index.html"><img height="50px" width="200px" src="./src/images/logo-long-dark.png"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,6 +62,55 @@
 
   <!-- Start Navigation -->
   <div id="#home"></div>
+
+  <!--Start Header -->
+<header>
+  <!-- This creates the transparent black overlay over the video which you can modify in the CSS -->
+  <div class="overlay"></div>
+  <div id="vid">
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" poster="./assets/images/videofallback.jpg" id="videoBackground">
+      <source src="./src/images/background1.webm" type="video/webm">
+      <source src="./src/images/background1.ogx" type="video/ogv">
+      <source src="./src/images/background1.mp4" type="video/mp4">
+    </video>`;
+  </div>
+  <!-- start header content -->
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <div class="d-flex align-items-center " id="headerBox">
+          <div class="mx-auto text-white my-5">
+            <div>
+              <img src="./src/images/logo-white.png" class="mb-4" alt="Amanda Watson" width="100" height="100">
+            </div>
+            <div>
+              <h1 class="display-1 px-2 " id="headerh1" data-aos="fade-up">AMANDA</h1>         <h1 class="display-1 px-2 text-muted" id="headerh1" data-aos="fade-up">WATSON</h1>
+            </div>
+            <div class="text-center justify-content-center w-100 mx-auto">
+              <p class="lead mx-auto mb-5 mt-2 px-3 text-center fs-5" data-aos="fade-up" style="max-width:80%;">Mental health professional. Lover of derby animals. Possibly super human. </p>
+
+
+          <a href="#header-home" alt="Learn more about Amanda Watson" class="mt-5">  <button type="button" class="btn btn-light btn-lg px-5 py-2 me-md-2 fs-5" data-aos="fade-right">Learn More</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="bg-dark text-secondary px-4 py-5 text-center" id="gradientBackground2">
+    <div class="py-5">
+                <img src="./src/images/988.png" alt="Amanda loves soccer" class="me-2" height="150px" width="150px" data-aos="fade-down">
+      <h1 class="display-1 fw-bold text-white">Help is available.</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-2 mb-4 text-white">Dial 988 to reach the Suicide and Crisis Lifeline.</p>
+
+      </div>
+    </div>
+  </div>
+
+
   <!-- Start Header -->
   <div class="w-100 mt-5" id="header-home">
     <div class="container col-xxl-8 px-4 pb-5">
@@ -73,12 +123,12 @@
             <img src="./src/images/soccerball.png" alt="Amanda loves soccer" class="me-2" height="50px" width="50px" data-aos="fade-down">
           <h1 class="display-4 fw-bold lh-1 mb-3" data-aos="fade-right">Amanda Watson</h1>
         </div>
-          <p class="lead" data-aos="fade-right" id="Amanda1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          <p class="lead my-3" data-aos="fade-right" id="Amanda1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <p class="lead" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          <p class="lead my-3" data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+          <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2 fs-5" data-aos="fade-right">Learn more about Amanda</button> </a>
           </div>
         </div>
       </div>
@@ -99,89 +149,73 @@
   <!-- End First Banner -->
 
   <!-- Start Treatment Specialties -->
-  <div class="container px-2 pb-5 " >
-    <div class="row row-cols-1  align-items-md-center g-5 py-5 d-flex justify-content-center">
+
+
+<div class="row w-100">
+  <div class="col-md-2"></div>
+  <div class="col-md-8 ">
+  <div class="mb-5 mt-0 d-flex justify-content-center flex-row flex-wrap">
+
+
+    <div class="row row-cols-1 mx-1 mt-3 align-items-md-center g-5 d-flex justify-content-center">
       <div class="d-flex">
       <img src="./src/images/dolphin.png" alt="Amanda loves soccer" class="me-2" height="50px" width="50px" data-aos="fade-right">
       <h2 class="display-5 fw-bold lh-1 mb-0 w-100" data-aos="fade-up">Lorem Ipsum:</h2>
     </div>
       <p class="lead w-100" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
-
-      <!-- Card -->
-      <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
-        <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
-        <div class="card-body">
-          <h5 class="card-title">Lorem ipsum</h5>
-          <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-      </div>
     </div>
-  </div>
-  <!--End TREATMENT SPECIALITIES -->
 
+    <div class="row ">
+      <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+        <div class="card m-3 mx-4" data-aos="fade-up">
+          <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+        <div class="card m-3 mx-4" data-aos="fade-up">
+          <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+        <div class="card m-3 mx-4" data-aos="fade-up">
+          <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+        <div class="card m-3 mx-4" data-aos="fade-up">
+          <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+</div>
+  <div class="col-md-2"></div>
+</div>
+    <!--End TREATMENT SPECIALITIES -->
   <!-- Start Second Banner -->
   <div id="recommended-Resources"></div>
   <div class=" text-secondary px-4 py-5 text-center" id="gradientBackground3">
@@ -194,8 +228,71 @@
     </div>
   </div>
   <!-- End Second Banner -->
+  <div class="row w-100">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 ">
+    <div class="mb-5 mt-0 d-flex justify-content-center flex-row flex-wrap">
 
-  <!-- Start Recommended Resources-->
+
+      <div class="row row-cols-1 mx-1 mt-3 align-items-md-center g-5 d-flex justify-content-center">
+        <div class="d-flex">
+          <img src="./src/images/clover.png" alt="Amanda loves soccer" class="me-2" height="50px" width="50px" data-aos="fade-right">
+          <h2 class="display-5 fw-bold lh-1 mb-0 w-100" data-aos="fade-up">Lorem Ipsum:</h2>
+      </div>
+      <p class="lead w-100" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+
+      <div class="row ">
+        <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+          <div class="card m-3 mx-4" data-aos="fade-up">
+            <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem Ipsum</h5>
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+          <div class="card m-3 mx-4" data-aos="fade-up">
+            <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem Ipsum</h5>
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+          <div class="card m-3 mx-4" data-aos="fade-up">
+            <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem Ipsum</h5>
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mx-auto d-flex flex-row flex-wrap justify-content-center">
+          <div class="card m-3 mx-4" data-aos="fade-up">
+            <img src="./src/images/placeholder.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lorem Ipsum</h5>
+              <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a href="./about.html" alt="Learn more about Amanda Watson">  <button type="button" class="btn btn-dark btn-lg px-5 py-2 me-md-2" data-aos="fade-right">Learn More</button> </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  </div>
+    <div class="col-md-2"></div>
+  </div>
+  <!-- Start Recommended Resources
   <div class="container px-2 pb-5 " >
     <div class="row row-cols-1  align-items-md-center g-5 py-5 d-flex justify-content-center">
       <div class="d-flex">
@@ -203,7 +300,7 @@
       <h2 class="display-5 fw-bold lh-1 mb-0 w-100" data-aos="fade-up">Lorem Ipsum:</h2>
     </div>
       <p class="lead w-100" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -212,7 +309,7 @@
         </div>
       </div>
 
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -221,7 +318,7 @@
         </div>
       </div>
 
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -230,7 +327,7 @@
         </div>
       </div>
 
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -239,7 +336,7 @@
         </div>
       </div>
 
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -248,7 +345,7 @@
         </div>
       </div>
 
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -257,7 +354,7 @@
         </div>
       </div>
 
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -266,7 +363,7 @@
         </div>
       </div>
 
-      <!-- Card -->
+
       <div class="card p-0 m-2"  id="neumorphic-blue" data-aos="fade-up">
         <img class="bd-placeholder-img card-img-top" src="./src/images/placeholder.png" alt="Amanda Watson Treatment Focus" id="cardImage">
         <div class="card-body">
@@ -276,7 +373,7 @@
       </div>
     </div>
   </div>
-  <!--End Recinnended Resources -->
+-->
 
 <!--Start Footer -->
   <div class="w-100 px-5">

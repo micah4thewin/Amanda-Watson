@@ -25,6 +25,10 @@
 #h1 {
   font-family: Metropolis;
 }
+#headerh1 {
+  font-family: MetropolisBold;
+  font-size: calc(45px + 4vw);
+}
 
 #light {
   font-family: MetropolisLight;
@@ -52,6 +56,7 @@ h5 {
 
 p {
   font-family: Metropolis;
+  fonst-size: 16px;
 }
 
 a {

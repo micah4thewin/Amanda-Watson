@@ -1,26 +1,19 @@
-# Hello,
+# Start:,
 
-This website was designed for Amanda Watson. It is a simple front end using Bootstrap 5, AOS, and some custom styles/images/markup/scripts. 
-
+This website was designed for Amanda Watson. 
 This repository will be deleted, transferred, or made private at her request.
-
 References to Amanda like her name, pictures, metadata, etc will be removed at her request.
 
-# If you like it:
-This website is hosted on Github pages for free.
-A custom domain name can be connected at your request. (www.amandawatson.com, www.amandasavestheworld.com)
-Anything you want to be added can be like a blog, forms, media, etc.
-You can have many pages as you want.
-I can change any aesthetics. Just tell me what you want and if I'm not getting it show me an example or draw a mockup.
+# About:,
 
+This is a basic static website created with the intention to get your professional online presence started. It is hosted on github which is completely free and connected to a customer domain name I picked. I designed the website the way I think you would like. I am willing to change anything and everything about it if you don't in whole or in part. 
 
-# If you don't like it:
-I promise my feeling aren't hurt. 
-I am happy to change it however you like. Just give me some direction.
-I can take it down.
-I can remove references to you but keep it up.
+# Your domain:.
 
-#What I would need from you:
-I need you to give me content like your bio, the image that you want, useful mental health resources, and some links or blog post content or whatever you think of. I can incorporate pretty much whatever you got and I like a challenge.
+I purchased amandawatson.net from Google domains for one year. I can connect the site to any domain you choose though. I am happy to transfer the domain to your Google Domain account at your reaquest.
 
-I am happy to change and edit this website for you as much as you need. You are also welcome to download the source files and do whatever you want with them. 
+# Source Files:,
+
+I have published the source files to gihub as a public repository. You can download them from github in a zip folder and do whatever you want with them or 'fork' the project into your own github repositories.  I am also happy to give them to you via usb drive later.
+<a href="https://github.com/micah4thewin/amanda/" alt="Amanda Watson Source Files">Link</a>
+

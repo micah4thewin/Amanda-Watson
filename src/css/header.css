@@ -1,13 +1,14 @@
 header {
   position: relative;
-  height: calc(500px + 40vw);
+  height: calc(600px + 40vw);
   max-height: 1000px;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-
   background-image: url("./images/videofallback.jpg");
+  background-position: left;
   background-color: #1f271b;
+  padding-bottom: 25px;
 }
 
 #header2 {
@@ -16,7 +17,6 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
-
   background-image: url("./images/videofallback.jpg");
   background-color: #1f271b;
 }
@@ -64,12 +64,11 @@ header .overlay {
   }
 }
 
-
 #carouselItemOne {
-      background: url('../images/videofallback.jpg') black no-repeat center center scroll;
-      background-size: cover;
-      width: 100%;
-      height: 500px;
+  background: url('../images/videofallback.jpg') black no-repeat center center scroll;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
 }
 
 #headerBox {

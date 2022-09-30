@@ -1,6 +1,6 @@
 header {
   position: relative;
-  height: calc(600px + 40vw);
+  height: calc(500px + 35vw);
   max-height: 1000px;
   min-height: 25rem;
   width: 100%;
